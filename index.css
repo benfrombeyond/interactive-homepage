@@ -1,0 +1,94 @@
+body{
+    background-color: darkgrey;
+}
+.banner{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.band{
+    background-color: grey;
+    width: 100%;
+    aspect-ratio: 20/1;
+    left: 0;
+    position: absolute;
+}
+.container{
+    width: 40%;
+    aspect-ratio: 1/1;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+}
+.petal{
+    width: 15%;
+    aspect-ratio: 1/1;
+    background-color: purple;
+    position: absolute;
+}
+.top{
+    bottom: 50%;
+}
+.bottom{
+    top: 50%;
+}
+.left{
+    right: 50%;
+}
+.right{
+    left: 50%;
+}
+.screen{
+    width: 94%;
+    aspect-ratio: 1/1;
+    position: absolute;
+    left: 3%;
+    top: 3%;
+    display: none;
+}
+.inner{
+    width: 100%;
+    height: 100%;
+    background-color: violet;
+    overflow: hidden;
+}
+.spot{
+    position: absolute;
+    width: 5%;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    background-color: yellow;
+    left: 47.5%;
+}
+#ptl{
+    border-radius: 60% 0% 0% 0%;
+}
+#ptr{
+    border-radius: 0% 60% 0% 0%;
+}
+#pbl{
+    border-radius: 0% 0% 0% 60%;
+}
+#pbr{
+    border-radius: 0% 0% 60% 0%;
+}
+.itl{
+    background-image: url("https://codehs.com/uploads/de5fcb98516369c7f9a7ac4d8cbec9ba");
+    background-size: cover;
+}
+.itr{
+    background-image: url("https://codehs.com/uploads/f01631f51ed3048277a1641f46e85649");
+    background-size: cover;
+}
+.ibl{
+    background-image: url("https://codehs.com/uploads/07a225bf90d6ef7627700a42ec4f22ca");
+    background-size: cover;
+}
+#links{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
