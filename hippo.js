@@ -1,5 +1,5 @@
-let xPosition = 0;
-let yPosition = 0;
+let xPosition = 200;
+let yPosition = 200;
 $("body").on("keydown",pressKey);
 $("body").on("keyup",releaseKey);
 let xTimer = null;
