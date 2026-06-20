@@ -1,0 +1,57 @@
+body{
+    background-color: grey;
+}
+.container{
+    width: 200px;
+    aspect-ratio: 1/1;
+    /*border: 1px solid red;*/
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+}
+.curtains{
+    width: 101%;
+    height: 98%;
+    left: -1%;
+    top: -1%;
+    position: absolute;
+}
+.eyes{
+    width: 64%;
+    height: 35%;
+    position: absolute;
+    top: 20%;
+    left: 18%;
+}
+.picture{
+    position: absolute;
+    text-align: center;
+}
+.pupil{
+    height: 100%;
+    aspect-ratio: 1/2;
+    background-color: black;
+    border-radius: 100%;
+}
+#face{
+    width: 68%;
+    left: 16%;
+    top: 2%;
+}
+#head{
+    width: 86%;
+    left: 7%;
+    top: 0%;
+}
+#jaw{
+    width: 56%;
+    left: 22%;
+    top: 10%;
+}
+#leftEye{
+    float: left;
+}
+#rightEye{
+    float: right;
+}
